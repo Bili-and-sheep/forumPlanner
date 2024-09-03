@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
 body {
-    background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  font-family: "Annie Use Your Telescope";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: #161111;
+  background-color: #c1b9b9;
 }
+body div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+body div .row {
+  flex-shrink: 0;
+  width: 0;
+  max-width: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+}
+body div.indexFirst {
+  border: #161111 4px;
+  border-radius: 15px;
+}
+body div.indexFirst .para {
+  margin: 1em auto;
+  max-width: 800px;
+  width: 95%;
+}/*# sourceMappingURL=app.css.map */
